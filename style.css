@@ -57,11 +57,13 @@ html,body{
 }
 #pbtm{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    width: 100;
+    width: 100%;
     height: calc(100% - 80px);
-    padding: 20px;
+    padding: 25px;
 }
 
 .bubble{
